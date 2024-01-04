@@ -16,9 +16,11 @@ class ResultSectionTriangularArea extends StatelessWidget {
           height: screenHeight * 0.03,
         ),
         InputFieldRowBlocks(
-            rowTitle: 'Area',
-            unit: feetScreen?'sq.Ft':'sq.M',
-            titleFontSize: screenWidth * 0.035, unitBoxWidth: 5,),
+          rowTitle: 'Area',
+          unit: feetScreen ? 'sq.Ft' : 'sq.M',
+          titleFontSize: screenWidth * 0.035,
+          unitBoxWidth: 5,
+        ),
       ],
     );
   }

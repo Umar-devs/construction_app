@@ -22,7 +22,7 @@ class SectionOneRoom extends StatelessWidget {
               titleFontSize: screenWidth * 0.035,
               wantShortField: true,
               inputFieldWidth: screenWidth * 0.25,
-              removeUnitType: true,
+              removeUnitType: true, unitBoxWidth: 1,
             ),
             InputFieldRowPlaster(
               rowTitle: 'Sand     ',
