@@ -18,7 +18,7 @@ class ResultSectionSquareAndRectangle extends StatelessWidget {
         InputFieldRowBlocks(
             rowTitle: 'Area',
             unit: feetScreen?'sq.Ft':'sq.M',
-            titleFontSize: screenWidth * 0.035),
+            titleFontSize: screenWidth * 0.035, unitBoxWidth: 5,),
       ],
     );
   }
